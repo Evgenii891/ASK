@@ -13,8 +13,8 @@ Feature: Assignment group
     And I click on Group Number
     Then element dashboard contains text "1111"
     Examples:
-      | email                         | password | text    |
-      | a.gnedq@bloglurichardnet.info | 12345    | TEACHER |
+      | email             | password | text    |
+      | qa.sofi@gmail.com | 12345    | TEACHER |
 
 
   Scenario: Assignment group same from teacher account account

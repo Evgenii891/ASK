@@ -3,8 +3,8 @@ Feature: assign_quiz
 
   Scenario: Assign quiz
     Given I open login page
-    Then I type email "umzingelte@polioneis-reborb.com"
-    Then I type password "mynewpassword"
+    Then I type email "qa.sofi@gmail.com"
+    Then I type password "12345"
     And I click Sign in button
     And I click on Quizzes menu item
     And I click Create new quiz button
@@ -21,8 +21,8 @@ Feature: assign_quiz
 
   Scenario: Quiz_assign
     Given I open login page
-    Then I type email "umzingelte@polioneis-reborb.com"
-    Then I type password "mynewpassword"
+    Then I type email "qa.sofi@gmail.com"
+    Then I type password "12345"
     And I click Sign in button
     And click on Assignments on left menu
     Then click on Create New Assignment
