@@ -1,5 +1,5 @@
 @Regression
-Feature: Assignment group
+Feature: Assignment groups
 
   Scenario Outline: Assignment group
     Given I open login page
